@@ -48,7 +48,7 @@ jobs:
             Version=${{  env.TAG }}
             GitCommit=${{ github.sha }}
           tags: |
-            ghcr.io/${{ env.REPO_OWNER }}/eazy-caddy:${{ env.TAG }}
+            ghcr.io/${{ env.REPO_OWNER }}/eazy-caddy:${{ github.sha }}
             ghcr.io/${{ env.REPO_OWNER }}/eazy-caddy:latest
 
 
