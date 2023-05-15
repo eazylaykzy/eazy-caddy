@@ -15,5 +15,5 @@ jobs:
       - name: Build eazy-caddy image
         run: |
           docker build . --tag ghcr.io/eazylaykzy/eazy-caddy:latest
-          docker run ghcr.io/eazylaykzy/eazy-caddy:latest
+#          docker run ghcr.io/eazylaykzy/eazy-caddy:latest
           docker push ghcr.io/eazylaykzy/eazy-caddy:latest
